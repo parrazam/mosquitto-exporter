@@ -2,7 +2,7 @@ name: Build and Publish tag version
 
 on:
   push:
-    tags: [ '*.*.*.*' ]
+    tags: [ 'v*.*.*' ]
 
 env:
   IMAGE_NAME: ${{ github.repository }}
