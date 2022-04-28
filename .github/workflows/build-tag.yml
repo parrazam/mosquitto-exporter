@@ -60,7 +60,7 @@ jobs:
             ${{ env.IMAGE_NAME_WITH_INFCLOUD }}
             ${{ env.GH_REPO }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=match,pattern=\d.\d.\d.\d
+            type=match,pattern=v\d.\d.\d
           labels: |
             maintainer=parrazam
             org.opencontainers.image.title=Mosquitto exporter
